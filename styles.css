@@ -1,0 +1,138 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* background-color, color, text decoration */
+
+body{
+    background-color: #1a1a1a;
+}
+
+
+header, main{
+    background-color: #4b4b4b;
+}
+h1, header{
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+h1{
+    color: white;
+    background-color: #000;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+ul{
+    list-style-type: none;
+}
+main{
+    width: 70%;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#leftbox, #rightbox{
+
+    height: 100%;
+}
+
+#leftbox{
+    background-color: rgb(236, 236, 235);
+    width: 15rem;
+}
+
+#subnavbar{
+    padding-top: 5px;
+}
+#subnavbar li{
+    padding: 0px 15px 0 5px;
+}
+
+#rightbox{
+    flex-grow: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-left: 1rem;
+}
+
+#rightbox div{
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 0.8rem;
+    text-align: center;
+    margin:10px;
+    flex-shrink: 0;
+    width: 200px;
+    padding-bottom: 1rem;
+   
+}
+img{
+    width: 200px;
+    height: 220px;
+    margin-bottom: 5px;
+}
+
+
+
+
+
+
+/* links */
+
+#navbar a:link{
+    color: white;
+    text-decoration: none;
+}
+
+#navbar a:visited{
+    color: white;
+    text-decoration: none;
+}
+#navbar a:hover{
+    text-decoration-line: underline;
+}
+
+#subnavbar a:link{
+    color: #4b4b4b;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+#subnavbar a:visited{
+    color: #4b4b4b;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+#subnavbar a:hover{
+    text-decoration-line: underline;
+}
+/* positioning navbar*/
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    padding: 10px;
+}
+
+
+/* hover boxes */
+
+
+div:hover{
+    border-radius: 0px;
+background: #d3d3d3;
+box-shadow:  -8px 5px 5px #8d8b8b,
+             8px -5px 15px #ece9e9;
+}
