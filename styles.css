@@ -6,31 +6,35 @@
 
 /* background-color, color, text decoration */
 
-body{
+body {
     background-color: #1a1a1a;
 }
 
 
-header, main{
+header,
+main {
     background-color: #4b4b4b;
 }
-h1, header{
+
+h1,
+header {
     width: 70%;
     margin: 0 auto;
-    
+
 }
 
-h1{
+h1 {
     color: white;
     background-color: #000;
     font-weight: 500;
     padding: 5px 0;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
-main{
+
+main {
     width: 70%;
     height: 100%;
     margin: 0 auto;
@@ -38,19 +42,20 @@ main{
 }
 
 
-#leftbox{
+#leftbox {
     background-color: rgb(236, 236, 235);
     width: 15rem;
 }
 
-#subnavbar{
+#subnavbar {
     padding-top: 5px;
 }
-#subnavbar li{
+
+#subnavbar li {
     padding: 0px 15px 0 5px;
 }
 
-#rightbox{
+#rightbox {
     flex-grow: 2;
     display: flex;
     flex-wrap: wrap;
@@ -58,18 +63,19 @@ main{
     margin-left: 1rem;
 }
 
-#rightbox div{
+#rightbox div {
     background-color: #1a1a1a;
     color: white;
     font-size: 0.8rem;
     text-align: center;
-    margin:10px;
+    margin: 10px;
     flex-shrink: 0;
     width: 200px;
     padding-bottom: 1rem;
-   
+
 }
-img{
+
+img {
     width: 200px;
     height: 220px;
     margin-bottom: 5px;
@@ -82,43 +88,46 @@ img{
 
 /* links */
 
-#navbar a:link{
+#navbar a:link {
     color: white;
     text-decoration: none;
 }
 
-#navbar a:visited{
+#navbar a:visited {
     color: white;
     text-decoration: none;
 }
-#navbar a:hover{
+
+#navbar a:hover {
     text-decoration-line: underline;
 }
 
-#subnavbar a:link{
+#subnavbar a:link {
     color: #4b4b4b;
     text-decoration: none;
     font-size: 0.8rem;
     font-weight: bold;
 }
 
-#subnavbar a:visited{
+#subnavbar a:visited {
     color: #4b4b4b;
     text-decoration: none;
     font-size: 0.8rem;
     font-weight: bold;
 }
-#subnavbar a:hover{
+
+#subnavbar a:hover {
     text-decoration-line: underline;
 }
+
 /* positioning navbar*/
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: center;
 }
 
-nav ul li{
+nav ul li {
     padding: 10px;
 }
 
@@ -126,9 +135,9 @@ nav ul li{
 /* hover boxes */
 
 
-div:hover{
+div:hover {
     border-radius: 0px;
-background: #d3d3d3;
-box-shadow:  -8px 5px 5px #8d8b8b,
-             8px -5px 15px #ece9e9;
+    background: #d3d3d3;
+    box-shadow: -8px 5px 5px #8d8b8b,
+        8px -5px 15px #ece9e9;
 }
